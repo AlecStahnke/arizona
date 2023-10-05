@@ -109,4 +109,5 @@
         }
         #azImg{
             position: absolute;
+            float: left;
         }
