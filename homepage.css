@@ -13,6 +13,7 @@
 
         
         nav {
+            
             background-color: #964949;
             color: white;
         }
@@ -88,12 +89,14 @@
         }
 
         button {
+            
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             background-color: #333;
             color: white;
             cursor: pointer;
+            margin-bottom: 20px;
         }
 
         button:hover {
@@ -103,4 +106,7 @@
         .error {
             color: red;
             margin-bottom: 20px;
+        }
+        #azImg{
+            position: absolute;
         }

@@ -15,7 +15,7 @@
 
     <nav>
         <ul>
-            <li> <a href="#home" target="_blank">Home</a></li>
+            <li> <a href="index.html" target="_blank">Home</a></li>
             <li> <a href="tucson.html" target="_blank">Tucson</a></li>
             <li> <a href="phoenix.html" target="_blank">Phoenix</a></li>
             <li> <a href="flagstaff.html" target="_blank">Flagstaff</a></li>
@@ -100,7 +100,7 @@
 
     <h1>Photo of the Arizona State Flag</h1>
 
-    <img src="arizona.png" alt="arizona" width="900" height="600">
+    <img src="arizona.png" alt="arizona" width="900" height="600" id="azImg">
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function (e) {
@@ -110,9 +110,9 @@
 
             if (email !== confirmEmail) {
                 error.textContent = 'The email addresses do not match.';
-                e.preventDefault(); // Prevent form submission
+                e.preventDefault(); 
             } else {
-                error.textContent = ''; // Clear the error message
+                error.textContent = ''; 
             }
         });
     </script>
