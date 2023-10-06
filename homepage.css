@@ -2,12 +2,23 @@
             margin: 0;
             padding: 0;
         }
+/* 
+       .container{
+        justify-content: center;
+       } */
 
-       
         header {
             background-color: #333;
             color: white;
             padding: 10px 20px;
+            text-align: center;
+        }
+
+        header h1{
+            position: relative;
+        }
+
+        div h1{
             text-align: center;
         }
 
@@ -16,6 +27,8 @@
             
             background-color: #964949;
             color: white;
+            padding: 15px;
+
         }
 
         nav ul {
@@ -28,8 +41,14 @@
             margin-left: 250px;
             margin-right: 100px;
             align-items: center;
+            
         }
 
+    
+
+        #azImg{
+            margin-left: 500px;
+        }
         
         .side-nav {
             background-color: #555;
@@ -37,8 +56,14 @@
             width: 200px;
             height: 100vh;
             position: fixed;
-            top: 0;
+            top: 5;
             left: 0;
+            position: absolute;
+            overflow-y: scroll;
+        }
+
+        .side-nav-header{
+            
         }
 
         .side-nav ol li {
@@ -102,12 +127,42 @@
         button:hover {
             background-color: #555;
         }
+        .main-page-margin{
+            margin-bottom: 50px;
+        }
 
         .error {
             color: red;
             margin-bottom: 20px;
         }
-        #azImg{
-            position: absolute;
+
+
+
+        #tucson1{
             float: left;
+            margin-bottom: 10px;
         }
+        #tucson2{
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #flagstaff1{
+            float: left;
+            margin-bottom: 10px;
+        }
+        #flagstaff2{
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #phoenix1{
+            float: left;
+            margin-bottom: 10px;
+        }
+        #phoenix2{
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+      
